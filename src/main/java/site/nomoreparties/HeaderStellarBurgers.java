@@ -17,20 +17,20 @@ public class HeaderStellarBurgers {
         this.driver = driver;
     }
     public void headerBurgerConstructorClick() {
-        this.driver.findElement(this.BurgerConstructor).click();
-        this.driver.manage().timeouts().implicitlyWait(3L, TimeUnit.SECONDS);
+        driver.findElement(this.BurgerConstructor).click();
+        driver.manage().timeouts().implicitlyWait(1L, TimeUnit.SECONDS);
     }
     public void headerFeedOrdersClick() {
-        this.driver.findElement(this.FeedOrders).click();
-        this.driver.manage().timeouts().implicitlyWait(3L, TimeUnit.SECONDS);
+        driver.findElement(this.FeedOrders).click();
+        driver.manage().timeouts().implicitlyWait(1L, TimeUnit.SECONDS);
     }
     public void headerLogoStellarBurgerClick() {
-        this.driver.findElement(this.LogoStellarBurger).click();
-        this.driver.manage().timeouts().implicitlyWait(3L, TimeUnit.SECONDS);
+        driver.findElement(this.LogoStellarBurger).click();
+        driver.manage().timeouts().implicitlyWait(1L, TimeUnit.SECONDS);
     }
     public void headerPersonalAccountClick() {
-        this.driver.findElement(this.PersonalAccount).click();
-        this.driver.manage().timeouts().implicitlyWait(3L, TimeUnit.SECONDS);
+        driver.findElement(this.PersonalAccount).click();
+        driver.manage().timeouts().implicitlyWait(1L, TimeUnit.SECONDS);
     }
 
 
