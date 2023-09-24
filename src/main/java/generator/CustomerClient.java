@@ -1,7 +1,5 @@
 package generator;
 
-import com.google.gson.Gson;
-import com.google.gson.annotations.SerializedName;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -10,14 +8,10 @@ import com.google.gson.JsonObject;
 import static io.restassured.RestAssured.given;
 
 public class CustomerClient {
-    @SerializedName("accessToken")
-    private String accessToken;
     private static final String CREATE_CUSTOMER = "/api/auth/register";
     private static final String PASS_CUSTOMER = "/api/auth/login";
     private static final String DELETE_CUSTOMER = "/api/auth/user";
-    public String getToken() {
-        return accessToken;
-    }
+
     public Response create(Customer customer){
         return given()
                 .header("Content-type", "application/json")
@@ -43,27 +37,24 @@ public class CustomerClient {
                 .when()
                 .delete(DELETE_CUSTOMER);
     }
-
-    public String CreateCustomer() {
-        CustomerClient customerClient = new CustomerClient();
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site/";
-        Customer customer = CustomerGenerator.randomCustomer(8);
-        Response response = customerClient.create(customer);
-
-        String jsonResponse = response.getBody().asString();
-        accessToken = JsonPath.from(jsonResponse).getString("accessToken");
-        return accessToken;
+    public Response logout(String token){
+        return  given()
+                .header("Authorization", token)
+                .header("Content-type", "application/json")
+                .and()
+                .when()
+                .get(PASS_CUSTOMER);
     }
+
     public static String loginCustomer(String email, String password) {
         CustomerClient customerClient = new CustomerClient();
         RestAssured.baseURI = "https://stellarburgers.nomoreparties.site/";
         Response response = customerClient.pass(email, password);
 
-        String responseBody = response.getBody().asString();
-        Gson gson = new Gson();
-        CustomerClient authResponse = gson.fromJson(responseBody, CustomerClient.class);
+        String jsonResponse = response.getBody().asString();
+        JsonPath jsonPath = new JsonPath(jsonResponse);
 
-        return authResponse.accessToken;
+        return jsonPath.getString("accessToken");
     }
 
     public static void deleteCustomer(String token){

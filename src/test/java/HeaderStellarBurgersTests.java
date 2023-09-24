@@ -10,13 +10,13 @@ import site.nomoreparties.HeaderStellarBurgers;
 public class HeaderStellarBurgersTests {
     private WebDriver driver;
     private HeaderStellarBurgers pageObject;
-    String expected;
+    private String expected;
     private String ErrorMassage = "Не открылась страница - ";
 
     @Before
     public void startUp() {
         driver = new ChromeDriver();
-        pageObject = new HeaderStellarBurgers(driver);
+        pageObject = new HeaderStellarBurgers();
         driver.get(Links.getRegistrationWindow());
     }
     @Test

@@ -8,14 +8,14 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import site.nomoreparties.Registration;
+import site.nomoreparties.RegistrationPage;
 
 import java.time.Duration;
 
-public class RegistrationTests {
+public class RegistrationPageTests {
 
     private WebDriver driver;
-    private Registration pageObject;
+    private RegistrationPage pageObject;
     private CustomerClient customerClient = new CustomerClient();
     private String expected;
     private String token;
@@ -25,7 +25,7 @@ public class RegistrationTests {
     @Before
     public void startUp() {
         driver = new ChromeDriver();
-        pageObject = new Registration(this.driver);
+        pageObject = new RegistrationPage();
         driver.get(Links.getRegistrationWindow());
         email = CustomerGenerator.randomEmail();
         name = CustomerGenerator.randomName();
@@ -57,7 +57,7 @@ public class RegistrationTests {
 
         token = CustomerClient.loginCustomer(email, password);
         Assert.assertNotNull("Регистрация не прошла, accessToken равен null", token);
-        CustomerClient.deleteCustomer(token); ;
+        CustomerClient.deleteCustomer(token);
     }
     @After
     public void teardown() {
