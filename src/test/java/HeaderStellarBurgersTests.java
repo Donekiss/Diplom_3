@@ -21,25 +21,25 @@ public class HeaderStellarBurgersTests {
     }
     @Test
         public void headerBurgerConstructorClick() {
-        pageObject.headerBurgerConstructorClick();
+        pageObject.headerBurgerConstructorClick(driver);
         expected = driver.getCurrentUrl().toString();
         Assert.assertEquals(ErrorMassage + Links.getConstructorWindow(), expected, Links.getConstructorWindow());
     }
     @Test
     public void logoStellarBurgerClick() {
-        pageObject.headerLogoStellarBurgerClick();
+        pageObject.headerLogoStellarBurgerClick(driver);
         expected = driver.getCurrentUrl().toString();
         Assert.assertEquals(ErrorMassage + Links.getConstructorWindow(), expected, Links.getConstructorWindow());
     }
     @Test
     public void feedOrdersClick() {
-        pageObject.headerFeedOrdersClick();
+        pageObject.headerFeedOrdersClick(driver);
         expected = driver.getCurrentUrl().toString();
         Assert.assertEquals(ErrorMassage + Links.getFeedOrdersWindow(), expected, Links.getFeedOrdersWindow());
     }
     @Test
     public void personalAccountClick() {
-        pageObject.headerPersonalAccountClick();
+        pageObject.headerPersonalAccountClick(driver);
         expected = driver.getCurrentUrl().toString();
         Assert.assertEquals(ErrorMassage + Links.getPersonalAccountWindow(), expected, Links.getPersonalAccountWindow());
     }

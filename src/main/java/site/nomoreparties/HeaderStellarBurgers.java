@@ -19,19 +19,23 @@ public class HeaderStellarBurgers {
         return driver.findElement(this.PersonalAccount);
     }
 
-    /*public HeaderStellarBurgers(WebDriver driver) {
-        this.driver = driver;
-    }*/
-    public void headerBurgerConstructorClick() {
+    public void headerBurgerConstructorClick(WebDriver driver) {
         driver.findElement(this.BurgerConstructor).click();
     }
-    public void headerFeedOrdersClick() {
+    public void headerFeedOrdersClick(WebDriver driver) {
         driver.findElement(this.FeedOrders).click();
     }
-    public void headerLogoStellarBurgerClick() {
+    public void headerLogoStellarBurgerClick(WebDriver driver) {
         driver.findElement(this.LogoStellarBurger).click();
     }
-    public void headerPersonalAccountClick() {
+    public void headerPersonalAccountClick(WebDriver driver) {
         driver.findElement(this.PersonalAccount).click();
+    }
+    public By getBurgerConstructor() {
+        return BurgerConstructor;
+    }
+
+    public By getLogoStellarBurger() {
+        return LogoStellarBurger;
     }
 }

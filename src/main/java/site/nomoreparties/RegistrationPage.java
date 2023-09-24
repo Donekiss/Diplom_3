@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class RegistrationPage {
-    private WebDriver driver;
+    private  WebDriver driver;
     private By NameTitleForm = By.xpath("//h2[text()='Регистрация']");
     private By FieldName = By.xpath("//div[contains(label, 'Имя')]/input[@name='name']");
     private By FieldEmail = By.xpath("//div[contains(label, 'Email')]/input[@type='text']");
@@ -18,25 +18,22 @@ public class RegistrationPage {
         return LinkToLoginWindow;
     }
 
-    /*public RegistrationPage(WebDriver driver) {
-        this.driver = driver;
-    }*/
-    public void setNameInRegistrationForm(String name) {
+    public void setNameInRegistrationForm(WebDriver driver, String name) {
         WebElement element = driver.findElement(FieldName);
         element.click();
         element.sendKeys(name);
     }
-    public void setEmailInRegistrationForm(String email) {
+    public void setEmailInRegistrationForm(WebDriver driver, String email) {
         WebElement element = driver.findElement(FieldEmail);
         element.click();
         element.sendKeys(email);
     }
-    public void setPasswordInRegistrationForm(String password) {
+    public void setPasswordInRegistrationForm(WebDriver driver, String password) {
         WebElement element = driver.findElement(FieldPassword);
         element.click();
         element.sendKeys(password);
     }
-    public void ButtonRegistrationClick() {
+    public void ButtonRegistrationClick(WebDriver driver) {
         driver.findElement(ButtonRegistration).click();
     }
     public void LinkToLoginWindowClick() {

@@ -16,21 +16,6 @@ public class PasswordRecoveryPage {
     }
     private By LinkToLoginWindow = By.xpath("//a[@href='/login' and contains(text(), 'Войти')]");
 
-    /*public PasswordRecoveryPage(WebDriver driver) {
-        this.driver = driver;
-    }*/
-    public void setEmailInPasswordRecoveryForm(String email) {
-        WebElement element = driver.findElement(FieldEmail);
-        element.click();
-        element.sendKeys(email);
-    }
-    public void ButtonRecoveryClick() {
-        driver.findElement(ButtonRecovery).click();
-    }
-    public void LinkToLoginWindowClick() {
-        driver.findElement(LinkToLoginWindow).click();
-    }
-    public WebElement passwordRecoveryPageLinkToLoginAccount() {
-        return driver.findElement(LinkToLoginWindow);
-    }
+
+
 }

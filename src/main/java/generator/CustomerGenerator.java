@@ -9,19 +9,19 @@ public class CustomerGenerator {
         return faker.internet().safeEmailAddress();
     }
 
-    public static String randomPassword(int number) {
+    public static String randomPassword(int passwordLength) {
         Faker faker = new Faker();
-        return faker.internet().password(number,number+2);
+        return faker.internet().password(passwordLength,passwordLength+2);
     }
 
     public static String randomName() {
         Faker faker = new Faker();
         return faker.name().fullName();
     }
-    public static Customer randomCustomer(int number) {
+    public static Customer randomCustomer(int passwordLength) {
         return new Customer()
                 .withEmail(randomEmail())
-                .withPassword(randomPassword(number))
+                .withPassword(randomPassword(passwordLength))
                 .withName(randomName());
     }
 
