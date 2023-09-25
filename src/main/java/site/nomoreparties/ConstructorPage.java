@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 public class ConstructorPage {
     private WebDriver driver;
     private By NameTitleForm = By.xpath("//h1[text()='Соберите бургер']");
+    private By WindowAllIngredients = By.xpath("//*[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']");
     private By BunTab = By.xpath("//div[contains(@class, 'tab')]/span[text()='Булки']/..");
     private By SauceTab = By.xpath("//div[contains(@class, 'tab')]/span[text()='Соусы']/..");
     private By FillingTab = By.xpath("//div[contains(@class, 'tab')]/span[text()='Начинки']/..");
@@ -24,6 +25,9 @@ public class ConstructorPage {
     }
     public By getFillingTab() {
         return FillingTab;
+    }
+    public By getWindowAllIngredients() {
+        return WindowAllIngredients;
     }
     public By getButtonPersonalAccount() {
         return ButtonPersonalAccount;

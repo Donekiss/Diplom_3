@@ -12,6 +12,7 @@ public class RegistrationPage {
     private By FieldPassword = By.xpath("//div[contains(label, 'Пароль')]/input[@type='password' and @name='Пароль']");
     private By ButtonRegistration = By.xpath("//button[text()='Зарегистрироваться']");
     private By TextBeforeLinkToLogin = By.xpath("//p[contains(@class, 'undefined') and contains(text(), 'Уже зарегистрированы?')]");
+    private By ShortPassword = By.xpath("//p[text()='Некорректный пароль']");
 
     private By LinkToLoginWindow = By.xpath("//a[@href='/login' and contains(text(), 'Войти')]");
     public By getLinkToLoginWindow() {
@@ -31,6 +32,8 @@ public class RegistrationPage {
     public void setPasswordInRegistrationForm(WebDriver driver, String password) {
         WebElement element = driver.findElement(FieldPassword);
         element.click();
+        element.clear();
+        element.click();
         element.sendKeys(password);
     }
     public void ButtonRegistrationClick(WebDriver driver) {
@@ -41,6 +44,9 @@ public class RegistrationPage {
     }
     public WebElement registrationPageLinkToLoginAccount() {
         return driver.findElement(LinkToLoginWindow);
+    }
+    public By getShortPassword() {
+        return ShortPassword;
     }
 
 }
