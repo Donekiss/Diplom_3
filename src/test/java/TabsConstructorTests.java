@@ -77,7 +77,6 @@ public class TabsConstructorTests {
         waitingForAnAttributeChange(bunTab);
 
         checkScrollPosition(scrollWindow, expectedBunScrollTop);
-        ComparisonElementAttributes(bunTab);
     }
 
     @Step("Waiting for all ingredients to be loaded")

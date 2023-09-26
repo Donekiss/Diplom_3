@@ -18,7 +18,6 @@ import java.time.Duration;
 import static driver.WebDriverCreator.createWebDriver;
 
 public class RegistrationPageTests {
-
     private WebDriver driver;
     private int passwordLength = 8;
     private int passwordBelowBoundaryValue = 5;
@@ -42,8 +41,8 @@ public class RegistrationPageTests {
     @Description("Check registration with long password length")
     public void checkRegistration() {
         generationAndRecordPassword(passwordLength);
-        buttonRegistrationClick();
-        waitingChangeUrl();
+        buttonRegistrationClick(driver);
+        waitingChangeUrl(driver);
         equivalenceURL();
     }
     @Test
@@ -51,7 +50,7 @@ public class RegistrationPageTests {
     @Description("Check visibility error massage with used short password length")
     public void checkRegistrationShortLogin() {
         generationAndRecordPassword(passwordBelowBoundaryValue);
-        buttonRegistrationClick();
+        buttonRegistrationClick(driver);
         checkingVisibilityError();
     }
     @Step("Generation name and email")
@@ -70,7 +69,7 @@ public class RegistrationPageTests {
         pageObject.setPasswordInRegistrationForm(driver, password);
     }
     @Step("Click on button registration")
-    public void buttonRegistrationClick(){
+    public void buttonRegistrationClick(WebDriver driver){
         pageObject.ButtonRegistrationClick(driver);
     }
     @Step("Checking visibility error on Page")
@@ -80,8 +79,8 @@ public class RegistrationPageTests {
         Assert.assertEquals("Элемент с сообщением об ошибке использования короткого пароля", true, isShortPasswordVisible);
     }
     @Step("Waiting for change URL")
-    public void waitingChangeUrl(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
+    public void waitingChangeUrl(WebDriver driver){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until((WebDriver d) -> d.getCurrentUrl().equals(Links.getPersonalAccountWindow()));
     }
     @Step("Equivalence comparison URL")

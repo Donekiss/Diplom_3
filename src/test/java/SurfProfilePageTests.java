@@ -37,7 +37,7 @@ public class SurfProfilePageTests {
         clickOnPersonalAccountButton();
         waitingForEntryAndChangeUrl(driver, profileWindow);
 
-        Assert.assertEquals(ErrorMassage + profileWindow, profileWindow, driver.getCurrentUrl().toString());
+        equivalenceLink(driver, profileWindow);
     }
     @Test
     @DisplayName("Check transition to Constructor page")
@@ -48,7 +48,7 @@ public class SurfProfilePageTests {
 
         driver.findElement(pageObject.getBurgerConstructor()).click();
 
-        Assert.assertEquals(ErrorMassage + constructorWindow, constructorWindow, driver.getCurrentUrl().toString());
+        equivalenceLink(driver, constructorWindow);
     }
     @Test
     @DisplayName("Check transition to Constructor page used logo")
@@ -59,7 +59,7 @@ public class SurfProfilePageTests {
 
         driver.findElement(pageObject.getLogoStellarBurger()).click();
 
-        Assert.assertEquals(ErrorMassage + constructorWindow, constructorWindow, driver.getCurrentUrl().toString());
+        equivalenceLink(driver, constructorWindow);
     }
     @Test
     @DisplayName("Check account logout")
@@ -71,7 +71,7 @@ public class SurfProfilePageTests {
         PersonalAccount personalAccount = new PersonalAccount();
         driver.findElement(personalAccount.getButtonLogout()).click();
 
-        Assert.assertEquals(ErrorMassage + profileWindow, profileWindow, driver.getCurrentUrl().toString());
+        equivalenceLink(driver, profileWindow);
     }
     @Step("Go to Profile used Personal Account button")
     public void clickOnPersonalAccountButton(){
@@ -81,6 +81,10 @@ public class SurfProfilePageTests {
     public void waitingForEntryAndChangeUrl(WebDriver driver, String url){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until((WebDriver d) -> d.getCurrentUrl().equals(url));
+    }
+    @Step("Equivalence comparison link")
+    public void equivalenceLink(WebDriver driver, String link){
+        Assert.assertEquals(ErrorMassage + link, link, driver.getCurrentUrl().toString());
     }
     @After
     public void tearDown() {
