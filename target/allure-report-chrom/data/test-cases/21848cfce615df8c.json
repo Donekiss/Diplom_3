@@ -1,0 +1,58 @@
+{
+  "uid" : "21848cfce615df8c",
+  "name" : "Check transition through Feed orders",
+  "fullName" : "HeaderStellarBurgersTests.feedOrdersClick",
+  "historyId" : "e2bdad0529c52a2118a1fe0dcb65f7ae",
+  "time" : {
+    "start" : 1695720144814,
+    "stop" : 1695720148684,
+    "duration" : 3870
+  },
+  "description" : "Checking transition used button Feed orders",
+  "descriptionHtml" : "<p>Checking transition used button Feed orders</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "feedOrdersClick"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "16344@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21848cfce615df8c.json",
+  "parameterValues" : [ ]
+}

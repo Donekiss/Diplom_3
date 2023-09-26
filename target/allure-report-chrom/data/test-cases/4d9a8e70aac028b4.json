@@ -1,0 +1,168 @@
+{
+  "uid" : "4d9a8e70aac028b4",
+  "name" : "Registration ",
+  "fullName" : "RegistrationPageTests.checkRegistration",
+  "historyId" : "ed9cca78b8bb018a6f5a05fd3ea020bd",
+  "time" : {
+    "start" : 1695720168493,
+    "stop" : 1695720174232,
+    "duration" : 5739
+  },
+  "description" : "Check registration with long password length",
+  "descriptionHtml" : "<p>Check registration with long password length</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Check registration with long password length",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generation name and email",
+      "time" : {
+        "start" : 1695720171391,
+        "stop" : 1695720171552,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Record name and email in the registration fields",
+      "time" : {
+        "start" : 1695720171552,
+        "stop" : 1695720172195,
+        "duration" : 643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Generation and record password",
+      "time" : {
+        "start" : 1695720172196,
+        "stop" : 1695720172532,
+        "duration" : 336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "lengthPassword",
+        "value" : "8"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on button registration",
+      "time" : {
+        "start" : 1695720172532,
+        "stop" : 1695720172681,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (383f1c4e7497d05e1d1a0f1e90f93f48)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Waiting for change URL",
+      "time" : {
+        "start" : 1695720172681,
+        "stop" : 1695720173238,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (383f1c4e7497d05e1d1a0f1e90f93f48)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Equivalence comparison URL",
+      "time" : {
+        "start" : 1695720173238,
+        "stop" : 1695720173247,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationPageTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "16344@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d9a8e70aac028b4.json",
+  "parameterValues" : [ ]
+}

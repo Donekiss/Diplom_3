@@ -1,0 +1,135 @@
+{
+  "uid" : "ba3ba1dd7e7089eb",
+  "name" : "Check transfer to the Login page",
+  "fullName" : "SwitchToLoginFormTests.SwitchToLoginFormTest[3]",
+  "historyId" : "15c5329a7a84bf62cc0ee1600d4e9a75",
+  "time" : {
+    "start" : 1695719723964,
+    "stop" : 1695719730182,
+    "duration" : 6218
+  },
+  "description" : "Switching to the Login page from 4 places",
+  "descriptionHtml" : "<p>Switching to the Login page from 4 places</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Switching to the Login page from 4 places",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Going to the initial page",
+      "time" : {
+        "start" : 1695719725646,
+        "stop" : 1695719726966,
+        "duration" : 1320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "link",
+        "value" : "https://stellarburgers.nomoreparties.site/register"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on found element",
+      "time" : {
+        "start" : 1695719726966,
+        "stop" : 1695719727220,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "By.xpath: //a[@href='/login' and contains(text(), 'Войти')]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Waiting for the element visibility",
+      "time" : {
+        "start" : 1695719727220,
+        "stop" : 1695719727281,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Equivalence comparison URL",
+      "time" : {
+        "start" : 1695719727281,
+        "stop" : 1695719727298,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "SwitchToLoginFormTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "SwitchToLoginFormTest[3]"
+  }, {
+    "name" : "suite",
+    "value" : "SwitchToLoginFormTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "19448@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba3ba1dd7e7089eb.json",
+  "parameterValues" : [ ]
+}
