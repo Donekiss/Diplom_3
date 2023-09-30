@@ -1,0 +1,87 @@
+{
+  "uid" : "d8f38ce0914178fc",
+  "name" : "Check transition through Feed orders",
+  "fullName" : "HeaderStellarBurgersTests.feedOrdersClick",
+  "historyId" : "e2bdad0529c52a2118a1fe0dcb65f7ae",
+  "time" : {
+    "start" : 1696060509591,
+    "stop" : 1696060517399,
+    "duration" : 7808
+  },
+  "description" : "Checking transition used button Feed orders",
+  "descriptionHtml" : "<p>Checking transition used button Feed orders</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checking transition used button Feed orders",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on Feed Orders",
+      "time" : {
+        "start" : 1696060514638,
+        "stop" : 1696060515018,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (cf4ceb2c1928a649693fea93732b8569)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "feedOrdersClick"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "27416@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8f38ce0914178fc.json",
+  "parameterValues" : [ ]
+}

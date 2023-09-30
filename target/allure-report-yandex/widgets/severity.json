@@ -1,0 +1,171 @@
+[ {
+  "uid" : "a9f4c4657095d10e",
+  "name" : "Check transfer to the Login page",
+  "time" : {
+    "start" : 1696060609097,
+    "stop" : 1696060614547,
+    "duration" : 5450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b0b23bb37130efe",
+  "name" : "Check transition through logo",
+  "time" : {
+    "start" : 1696060524623,
+    "stop" : 1696060531587,
+    "duration" : 6964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "186857361bffe45b",
+  "name" : "Check transition to Constructor page",
+  "time" : {
+    "start" : 1696060556379,
+    "stop" : 1696060565553,
+    "duration" : 9174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8f38ce0914178fc",
+  "name" : "Check transition through Feed orders",
+  "time" : {
+    "start" : 1696060509591,
+    "stop" : 1696060517399,
+    "duration" : 7808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "888154b51887ffd0",
+  "name" : "Transition to the bun tab",
+  "time" : {
+    "start" : 1696060614555,
+    "stop" : 1696060620716,
+    "duration" : 6161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "262d5d4d0e6b39a5",
+  "name" : "Registration with used short password",
+  "time" : {
+    "start" : 1696060531618,
+    "stop" : 1696060548142,
+    "duration" : 16524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3953aaf4f3a318ce",
+  "name" : "Registration ",
+  "time" : {
+    "start" : 1696060548149,
+    "stop" : 1696060556338,
+    "duration" : 8189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11276b03ed900e2e",
+  "name" : "Transition to the sauce tab",
+  "time" : {
+    "start" : 1696060625095,
+    "stop" : 1696060629037,
+    "duration" : 3942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da71296786df1e4",
+  "name" : "Check transfer to the Login page",
+  "time" : {
+    "start" : 1696060596323,
+    "stop" : 1696060603111,
+    "duration" : 6788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93277e1cb61afc3f",
+  "name" : "Check transfer to the Login page",
+  "time" : {
+    "start" : 1696060588734,
+    "stop" : 1696060596319,
+    "duration" : 7585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "809d5aaed8b93c50",
+  "name" : "Check transfer to the Login page",
+  "time" : {
+    "start" : 1696060603116,
+    "stop" : 1696060609080,
+    "duration" : 5964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e52b5bd187bcbb6",
+  "name" : "Check account logout",
+  "time" : {
+    "start" : 1696060565557,
+    "stop" : 1696060573218,
+    "duration" : 7661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4878d4d7ba6f0a85",
+  "name" : "Transition to the fillings tab",
+  "time" : {
+    "start" : 1696060620721,
+    "stop" : 1696060625084,
+    "duration" : 4363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "569e748470ffca5f",
+  "name" : "Check transition to Profile page",
+  "time" : {
+    "start" : 1696060573225,
+    "stop" : 1696060580872,
+    "duration" : 7647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c68ede697614e180",
+  "name" : "Check transition to Constructor page used logo",
+  "time" : {
+    "start" : 1696060580877,
+    "stop" : 1696060588615,
+    "duration" : 7738
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffb419a3fba035a6",
+  "name" : "Check transition through Personal account",
+  "time" : {
+    "start" : 1696060517407,
+    "stop" : 1696060524617,
+    "duration" : 7210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a57ed23d518d894",
+  "name" : "Check transition through Constructor button",
+  "time" : {
+    "start" : 1696060494413,
+    "stop" : 1696060509444,
+    "duration" : 15031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

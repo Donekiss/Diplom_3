@@ -1,0 +1,267 @@
+{
+  "uid" : "c68ede697614e180",
+  "name" : "Check transition to Constructor page used logo",
+  "fullName" : "SurfProfilePageTests.SwitchFromProfileToConstructorPageWithLogoTest",
+  "historyId" : "531ecbc14d7cb6b5a9e4465bb5f19624",
+  "time" : {
+    "start" : 1696060580877,
+    "stop" : 1696060588615,
+    "duration" : 7738
+  },
+  "description" : "Checking transition to Constructor page by click Logo",
+  "descriptionHtml" : "<p>Checking transition to Constructor page by click Logo</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checking transition to Constructor page by click Logo",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create and login customer through Api with setting password length",
+      "time" : {
+        "start" : 1696060582918,
+        "stop" : 1696060586208,
+        "duration" : 3290
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create customer through Api with setting password length",
+        "time" : {
+          "start" : 1696060582918,
+          "stop" : 1696060583277,
+          "duration" : 359
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Generator random customer for create",
+          "time" : {
+            "start" : 1696060582918,
+            "stop" : 1696060583045,
+            "duration" : 127
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Generator random email",
+            "time" : {
+              "start" : 1696060582918,
+              "stop" : 1696060582971,
+              "duration" : 53
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Generator random password",
+            "time" : {
+              "start" : 1696060582971,
+              "stop" : 1696060582975,
+              "duration" : 4
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "passwordLength",
+              "value" : "8"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Generator random name",
+            "time" : {
+              "start" : 1696060582976,
+              "stop" : 1696060583045,
+              "duration" : 69
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "passwordLength",
+            "value" : "8"
+          } ],
+          "stepsCount" : 3,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Api post to create customer",
+          "time" : {
+            "start" : 1696060583046,
+            "stop" : 1696060583276,
+            "duration" : 230
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "customer",
+            "value" : "generator.Customer@16519bbf"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Extract AccessToken from the response",
+          "time" : {
+            "start" : 1696060583276,
+            "stop" : 1696060583277,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "response",
+            "value" : "io.restassured.internal.RestAssuredResponseImpl@1037a234"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "passwordLength",
+          "value" : "8"
+        } ],
+        "stepsCount" : 6,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (720f628fff5afe8f5dcdc3aaebc3bba0)"
+      }, {
+        "name" : "passwordLength",
+        "value" : "8"
+      } ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Go to Profile used Personal Account button",
+      "time" : {
+        "start" : 1696060586208,
+        "stop" : 1696060587012,
+        "duration" : 804
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (720f628fff5afe8f5dcdc3aaebc3bba0)"
+      }, {
+        "name" : "window",
+        "value" : "https://stellarburgers.nomoreparties.site/account/profile"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on logo",
+      "time" : {
+        "start" : 1696060587012,
+        "stop" : 1696060587152,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (720f628fff5afe8f5dcdc3aaebc3bba0)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Api delete this customer",
+      "time" : {
+        "start" : 1696060588352,
+        "stop" : 1696060588615,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MTdkNGE4OWVkMjgwMDAxYjM2YzhkYSIsImlhdCI6MTY5NjA2MDU4NCwiZXhwIjoxNjk2MDYxNzg0fQ.sG0eruAXDJDdcRaLD8JRBYdUzylkfu9450Eg2CkPiXY"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "SurfProfilePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "SwitchFromProfileToConstructorPageWithLogoTest"
+  }, {
+    "name" : "suite",
+    "value" : "SurfProfilePageTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "27416@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c68ede697614e180.json",
+  "parameterValues" : [ ]
+}

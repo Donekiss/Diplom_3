@@ -1,0 +1,87 @@
+{
+  "uid" : "7a57ed23d518d894",
+  "name" : "Check transition through Constructor button",
+  "fullName" : "HeaderStellarBurgersTests.headerBurgerConstructorClick",
+  "historyId" : "a40a8f27187e80cdb89c1313618b90b6",
+  "time" : {
+    "start" : 1696060494413,
+    "stop" : 1696060509444,
+    "duration" : 15031
+  },
+  "description" : "Checking transition used button Constructor",
+  "descriptionHtml" : "<p>Checking transition used button Constructor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checking transition used button Constructor",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on burger Constructor",
+      "time" : {
+        "start" : 1696060506325,
+        "stop" : 1696060506775,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (bcaca44a4b0be715308beabf0c7ed9f7)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "headerBurgerConstructorClick"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "27416@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a57ed23d518d894.json",
+  "parameterValues" : [ ]
+}
