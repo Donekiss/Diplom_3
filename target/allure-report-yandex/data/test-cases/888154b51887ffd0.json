@@ -1,0 +1,123 @@
+{
+  "uid" : "888154b51887ffd0",
+  "name" : "Transition to the bun tab",
+  "fullName" : "TabsConstructorTests.BunTabClick",
+  "historyId" : "122343be1ec44318c884617beca5a238",
+  "time" : {
+    "start" : 1696060614555,
+    "stop" : 1696060620716,
+    "duration" : 6161
+  },
+  "description" : "Checking tab attribute changes and scroll movement",
+  "descriptionHtml" : "<p>Checking tab attribute changes and scroll movement</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checking tab attribute changes and scroll movement",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Waiting for all ingredients to be loaded",
+      "time" : {
+        "start" : 1696060618474,
+        "stop" : 1696060618550,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (7c772e51fedbfc1301b14ff466552e1d)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Switching to the filling tab",
+      "time" : {
+        "start" : 1696060618587,
+        "stop" : 1696060618693,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (7c772e51fedbfc1301b14ff466552e1d)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Switching to the bun tab",
+      "time" : {
+        "start" : 1696060619241,
+        "stop" : 1696060619354,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (7c772e51fedbfc1301b14ff466552e1d)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TabsConstructorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "BunTabClick"
+  }, {
+    "name" : "suite",
+    "value" : "TabsConstructorTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "27416@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "888154b51887ffd0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "5b0b23bb37130efe",
+  "name" : "Check transition through logo",
+  "fullName" : "HeaderStellarBurgersTests.logoStellarBurgerClick",
+  "historyId" : "c6b7bcc58f3168048758aa61e88d072a",
+  "time" : {
+    "start" : 1696060524623,
+    "stop" : 1696060531587,
+    "duration" : 6964
+  },
+  "description" : "Checking transition used logo",
+  "descriptionHtml" : "<p>Checking transition used logo</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checking transition used logo",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on logo",
+      "time" : {
+        "start" : 1696060528651,
+        "stop" : 1696060529209,
+        "duration" : 558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (f1bc6986f4a6d577c0436f45a00273e3)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "logoStellarBurgerClick"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderStellarBurgersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "27416@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b0b23bb37130efe.json",
+  "parameterValues" : [ ]
+}

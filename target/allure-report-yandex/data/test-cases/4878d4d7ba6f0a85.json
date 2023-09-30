@@ -1,0 +1,105 @@
+{
+  "uid" : "4878d4d7ba6f0a85",
+  "name" : "Transition to the fillings tab",
+  "fullName" : "TabsConstructorTests.FillingTabClick",
+  "historyId" : "26133d0e267e37a3ca57816faaffad8",
+  "time" : {
+    "start" : 1696060620721,
+    "stop" : 1696060625084,
+    "duration" : 4363
+  },
+  "description" : "Checking tab attribute changes and scroll movement",
+  "descriptionHtml" : "<p>Checking tab attribute changes and scroll movement</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checking tab attribute changes and scroll movement",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Waiting for all ingredients to be loaded",
+      "time" : {
+        "start" : 1696060623978,
+        "stop" : 1696060624006,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (3628190021aa63285329c5b99174d482)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Switching to the filling tab",
+      "time" : {
+        "start" : 1696060624028,
+        "stop" : 1696060624126,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (3628190021aa63285329c5b99174d482)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TabsConstructorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "FillingTabClick"
+  }, {
+    "name" : "suite",
+    "value" : "TabsConstructorTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R11RP3O"
+  }, {
+    "name" : "thread",
+    "value" : "27416@DESKTOP-R11RP3O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4878d4d7ba6f0a85.json",
+  "parameterValues" : [ ]
+}

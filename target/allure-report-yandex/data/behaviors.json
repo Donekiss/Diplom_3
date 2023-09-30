@@ -3,221 +3,221 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Check transition through Constructor button",
-    "uid" : "2db74922f64449a8",
+    "uid" : "7a57ed23d518d894",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719623196,
-      "stop" : 1695719634648,
-      "duration" : 11452
+      "start" : 1696060494413,
+      "stop" : 1696060509444,
+      "duration" : 15031
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transition through Feed orders",
-    "uid" : "af927dbb5f096278",
+    "uid" : "d8f38ce0914178fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719634880,
-      "stop" : 1695719639733,
-      "duration" : 4853
+      "start" : 1696060509591,
+      "stop" : 1696060517399,
+      "duration" : 7808
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transition through Personal account",
-    "uid" : "f5fb67056f5f14c9",
+    "uid" : "ffb419a3fba035a6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719639741,
-      "stop" : 1695719645018,
-      "duration" : 5277
+      "start" : 1696060517407,
+      "stop" : 1696060524617,
+      "duration" : 7210
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transition through logo",
-    "uid" : "efa63e2bb2bf5f09",
+    "uid" : "5b0b23bb37130efe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719645023,
-      "stop" : 1695719650541,
-      "duration" : 5518
+      "start" : 1696060524623,
+      "stop" : 1696060531587,
+      "duration" : 6964
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Registration with used short password",
-    "uid" : "8bef965ca165adc4",
+    "uid" : "262d5d4d0e6b39a5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719650553,
-      "stop" : 1695719667148,
-      "duration" : 16595
+      "start" : 1696060531618,
+      "stop" : 1696060548142,
+      "duration" : 16524
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Registration ",
-    "uid" : "3e15e830995d3ecd",
+    "uid" : "3953aaf4f3a318ce",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719667157,
-      "stop" : 1695719674634,
-      "duration" : 7477
+      "start" : 1696060548149,
+      "stop" : 1696060556338,
+      "duration" : 8189
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transition to Constructor page",
-    "uid" : "ed8b27a893877b72",
+    "uid" : "186857361bffe45b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719674642,
-      "stop" : 1695719682312,
-      "duration" : 7670
+      "start" : 1696060556379,
+      "stop" : 1696060565553,
+      "duration" : 9174
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check account logout",
-    "uid" : "c5f3537f425cd82d",
+    "uid" : "e52b5bd187bcbb6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719682317,
-      "stop" : 1695719689213,
-      "duration" : 6896
+      "start" : 1696060565557,
+      "stop" : 1696060573218,
+      "duration" : 7661
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transition to Profile page",
-    "uid" : "564d6cfb7c9a1b0f",
+    "uid" : "569e748470ffca5f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719689219,
-      "stop" : 1695719696551,
-      "duration" : 7332
+      "start" : 1696060573225,
+      "stop" : 1696060580872,
+      "duration" : 7647
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transition to Constructor page used logo",
-    "uid" : "792b72eacf6449fa",
+    "uid" : "c68ede697614e180",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719696557,
-      "stop" : 1695719703516,
-      "duration" : 6959
+      "start" : 1696060580877,
+      "stop" : 1696060588615,
+      "duration" : 7738
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transfer to the Login page",
-    "uid" : "a8d385751da079ef",
+    "uid" : "93277e1cb61afc3f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719703558,
-      "stop" : 1695719709490,
-      "duration" : 5932
+      "start" : 1696060588734,
+      "stop" : 1696060596319,
+      "duration" : 7585
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transfer to the Login page",
-    "uid" : "4e92bf15405b4c5d",
+    "uid" : "9da71296786df1e4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719709495,
-      "stop" : 1695719715735,
-      "duration" : 6240
+      "start" : 1696060596323,
+      "stop" : 1696060603111,
+      "duration" : 6788
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transfer to the Login page",
-    "uid" : "8e2f154852f57fa1",
+    "uid" : "809d5aaed8b93c50",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719715740,
-      "stop" : 1695719723959,
-      "duration" : 8219
+      "start" : 1696060603116,
+      "stop" : 1696060609080,
+      "duration" : 5964
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check transfer to the Login page",
-    "uid" : "ba3ba1dd7e7089eb",
+    "uid" : "a9f4c4657095d10e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719723964,
-      "stop" : 1695719730182,
-      "duration" : 6218
+      "start" : 1696060609097,
+      "stop" : 1696060614547,
+      "duration" : 5450
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Transition to the bun tab",
-    "uid" : "8e4d8c6c128e588f",
+    "uid" : "888154b51887ffd0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719730262,
-      "stop" : 1695719734940,
-      "duration" : 4678
+      "start" : 1696060614555,
+      "stop" : 1696060620716,
+      "duration" : 6161
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Transition to the fillings tab",
-    "uid" : "3fe1db067a8fccf3",
+    "uid" : "4878d4d7ba6f0a85",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719734944,
-      "stop" : 1695719739812,
-      "duration" : 4868
+      "start" : 1696060620721,
+      "stop" : 1696060625084,
+      "duration" : 4363
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Transition to the sauce tab",
-    "uid" : "e2d7eab6394e3bb6",
+    "uid" : "11276b03ed900e2e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695719739821,
-      "stop" : 1695719743422,
-      "duration" : 3601
+      "start" : 1696060625095,
+      "stop" : 1696060629037,
+      "duration" : 3942
     },
     "flaky" : false,
     "newFailed" : false,

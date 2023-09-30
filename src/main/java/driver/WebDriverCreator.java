@@ -24,7 +24,7 @@ public class WebDriverCreator {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
-            return driver;
+        return driver;
     }
 
     private static WebDriver createYandexDriver() {
